@@ -1,0 +1,17 @@
+ CREATE DATABASE registration;
+
+use registration;
+CREATE TABLE users (first_name VARCHAR(20), 
+	            last_name  ARCHAR(20),
+                    address_1 VARCHAR(20), 
+	            address_2 VARCHAR(20),
+                    city  varchar(20), 
+		    state varchar(2),
+                    zip  char(10),
+                    country char(2),
+		    date varchar(20)
+                    );
+
+URL:
+http://98.117.218.71/admin_report.php
+http://98.117.218.71/register.html
